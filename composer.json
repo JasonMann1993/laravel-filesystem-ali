@@ -1,0 +1,21 @@
+{
+    "name": "jasonmann\/laravel-filesystem-ali",
+    "description": "A Aliyun OSS storage filesystem for Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason mann",
+            "email": "793650314@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0 || ^8.0",
+        "league/flysystem": "^1.1",
+        "jasonmann/flysystem-aliyun-oss": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jasonmann\\LaravelFilesystem\\Ali\\": "src"
+        }
+    }
+}
