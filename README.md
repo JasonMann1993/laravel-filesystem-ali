@@ -34,12 +34,12 @@ return [
         //...
         'ali' => [
             'driver' => 'ali',
-                       'root' => env('OSS_ROOT',''),
-                       'access_key' => env('OSS_ACCESS_KEY'),
-                       'secret_key' => env('OSS_SECRET_KEY'),
-                       'endpoint'   => env('OSS_ENDPOINT'),
-                       'bucket'     => env('OSS_BUCKET'),
-                       'isCName'    => env('OSS_IS_CNAME', false),
+            'root' => env('OSS_ROOT',''),
+            'access_key' => env('OSS_ACCESS_KEY'),
+            'secret_key' => env('OSS_SECRET_KEY'),
+            'endpoint'   => env('OSS_ENDPOINT'),
+            'bucket'     => env('OSS_BUCKET'),
+            'isCName'    => env('OSS_IS_CNAME', false),
         ],
         //...
     ]
@@ -58,17 +58,18 @@ $app->register(\Jasonmann\LaravelFilesystem\Ali\AliStorageServiceProvider::class
 
 ```php
 <?php
+<?php
 return [
    'disks' => [
         //...
         'ali' => [
             'driver' => 'ali',
-                       'root' => env('OSS_ROOT',''),
-                       'access_key' => env('OSS_ACCESS_KEY'),
-                       'secret_key' => env('OSS_SECRET_KEY'),
-                       'endpoint'   => env('OSS_ENDPOINT'),
-                       'bucket'     => env('OSS_BUCKET'),
-                       'isCName'    => env('OSS_IS_CNAME', false),
+            'root' => env('OSS_ROOT',''),
+            'access_key' => env('OSS_ACCESS_KEY'),
+            'secret_key' => env('OSS_SECRET_KEY'),
+            'endpoint'   => env('OSS_ENDPOINT'),
+            'bucket'     => env('OSS_BUCKET'),
+            'isCName'    => env('OSS_IS_CNAME', false),
         ],
         //...
     ]
